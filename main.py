@@ -17,8 +17,3 @@ for n in range(n_start, n_end + 1):
         print(f"Para n = {n}: {left_side} > {right_side} (falso)")
 
 print("\nConclusão: f(n) = 3n^2 + 2n + 1 é O(n^2) para n >= 1.")
-
-# coments
-# 3n^2+ 2n + 1 ≤ 6n^2
-# 3n^2 + 2n + 1 ≤ 3n^2 + 2n^2 + n^2 = 6n^2
-# 𝑓(𝑛) = 3n^2 + 2n + 1 é O(n^2)
